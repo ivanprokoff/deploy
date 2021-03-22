@@ -2,7 +2,6 @@ from flask_login import UserMixin
 from data.db_session import SqlAlchemyBase
 from werkzeug.security import generate_password_hash, check_password_hash
 import sqlalchemy
-import datetime
 from sqlalchemy import orm
 
 
